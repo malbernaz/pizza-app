@@ -61,7 +61,7 @@ export default function ChooseToppings() {
 
   return (
     <Wrapper>
-      <h1>choose your toppings!</h1>
+      <h1>choose your toppings:</h1>
       <Form as="form" onSubmit={submit}>
         {loaded
           ? toppings.map(t => (

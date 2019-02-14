@@ -42,7 +42,7 @@ export default function ChooseSize() {
 
   return (
     <Wrapper>
-      <h1>choose your pizza size!</h1>
+      <h1>choose your size:</h1>
       {loaded ? (
         <VerticalCenter as="form" onSubmit={submit}>
           <Center>
