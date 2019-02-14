@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "prettier": {
+    "printWidth": 100
+  },
+  "devDependencies": {
+    "react-scripts": "^2.1.5"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/css": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "@reach/router": "^1.2.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
